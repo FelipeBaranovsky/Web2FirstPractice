@@ -1,0 +1,85 @@
+html {
+    background-image: url("https://images.hdqwalls.com/download/polygon-shapes-dark-4k-f6-1920x1080.jpg");
+    background-size: cover;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 80px;
+    margin-top: 20px;
+    text-align: center;
+    color: beige;
+  }
+
+/*h2*/
+  h2 {
+    margin-top: -60px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .Bio1 {
+    font-size: 20px;
+  }
+
+  .Bio2 {
+    margin-top: 180px;
+  }
+
+  .Bio3:hover {
+    font-size: 20px;
+  }
+
+  .TextAux1 {
+    color: greenyellow
+  }
+
+/*h2*/
+
+.CatalogoBtn {
+    margin-top: 40px;
+    border-radius: 20px;
+    color: black;
+    font-size: 50px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: beige;
+}
+
+.CatalogoBtn:hover {
+  color: rgba(0, 0, 0, 0.24);
+  background-color: rgba(245, 245, 220, 0.253);
+}
+
+.Container {
+  text-align: center; 
+}
+
+/*Catalogo*/
+.ExpoImg {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+}
+
+.ListaCatalogoBtn {
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    color:beige;
+}
+
+.ListaCatalogoBtn:hover {
+  font-size: 23px;
+  color:rgba(245, 245, 220, 0.452);
+}
+
+.Container {
+  text-align: center;
+}
+
+ 
