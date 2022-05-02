@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="author" content="Felipe Baranovsky">
+        <meta name="description" content="Primer trabajo práctico de Web2.">
+        <link rel="shortcut icon" href="icons\favicon.ico" type="image/x-icon"> 
+        <title>
+            Ferretería
+        </title>
+        <link rel="stylesheet" href="myStyles.css">
+        <script src="fileJs.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>
+                    <strong class="TitleHome"> Ferretería </strong>
+                </h1>
+            </nav>  
+        </header>
+        <form name="formulario">
+            <table>
+                <tr>
+                    <td>
+                        <label class="leb" id="lbnombre" for="nombre">Nombre </label>
+                    </td>
+                    <td>
+                        <input class="casilla" type="text" id="nombre" placeholder="Ingrese el nombre..." maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="leb" id="lbdesc" for="desc">Descripción </label>
+                    </td>
+                    <td>
+                        <input class="casilla" type="text" id="desc" placeholder="Ingrese la descripción del producto..." maxlength="200">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="leb" id="lbprecio" for="precio">Precio (ARS$) </label>
+                    </td>
+                    <td>
+                        <input class="casilla" type="number" id="precio" placeholder="Ingrese el precio (Para decimales use '.')..." maxlength="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="leb" id="lbcant" for="cant">Cantidad </label>
+                    </td>
+                    <td>
+                        <input class="casilla" type="number" id="cant" placeholder="Ingrese la cantidad disponible..." maxlength="20">
+                    </td>
+                </tr>
+                <tr style="height: 80px;">
+                    <td colspan="2">
+                        <label class="leb" id="lbiva" style="color: rgb(255, 145, 0);">IVA </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="leb" id="lbdiez">10.5% </label>
+                    </td>
+                    <td>
+                        <input class="casilla" type="radio" id="rdiez" name="iva" style="margin-left: -750px;" value="10.5">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="leb" id="lbvein">21% </label>
+                    </td>
+                    <td>
+                        <input class="casilla" type="radio" id="rvein" name="iva" style="margin-left: -750px;" value="21">
+                    </td>
+                </tr>
+            </table>    
+        </form>
+        <div class="Container">
+            <button class="LinkerBtn" onclick="agregar()">
+                Agregar
+            </button> 
+        </div>           
+    </body>
+</html>
+
+
